@@ -13,16 +13,18 @@
         <a href="#video">Ir al video</a>
     </nav>
 
-<img id ="imagen" src=" https://cdn-icons-png.flaticon.com/512/3891/3891670.png"
-            alt=" Imagen de como una empresa deberia ser"
-            width="340"
-            height="400">
-<h2>Video de como una empresa deberia ser</h2>
-<iframe id="video"
- width="560" 
- height="315" 
- src="https://www.youtube.com/embed/VskCtHewv5w?si=j3sumFuW4aWwiUhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-</iframe>
+<img id="imagen" src="https://i.pinimg.com/474x/44/2a/91/442a91f75df1f6e2591e85ced11b75a8.jpg" 
+     alt="Imagen de como una empresa deberia ser" 
+     width="340" 
+     height="400">
 
+<h2>Video de como una empresa deberia ser</h2>
+<iframe id="video" 
+        width="560"
+         height="315"
+         src="https://www.youtube.com/embed/VskCtHewv5w?si=r4nFtazNrs222mp-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+       
+</iframe>
 </body>
 </html>
