@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"  content="Descripción de la página web">
+    <meta name="author" content="Daniel Lopez">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <h1>La ciencia de las empresas</h1>
+    <nav>
+        <a href="#imagen">Ir a la imagen</a>
+        <a href="#video">Ir al video</a>
+    </nav>
+
+<img id ="imagen" src=" https://cdn-icons-png.flaticon.com/512/3891/3891670.png"
+            alt=" Imagen de como una empresa deberia ser"
+            width="340"
+            height="400">
+<h2>Video de como una empresa deberia ser</h2>
+<iframe id="video"
+ width="560" 
+ height="315" 
+ src="https://www.youtube.com/embed/VskCtHewv5w?si=j3sumFuW4aWwiUhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+</body>
+</html>
