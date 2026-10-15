@@ -41,6 +41,19 @@
     <label for="confirmar">Confirmar contraseña:</label>
     <input type="password" id="confirmar" name="confirmar"><br><br>
    </fieldset>
-   
+   <br>
+    <label for="Color Favorito">Color Favorito:</label>
+    <input type="radio" id="Color Favorito" name="Color Favorito">
+    <label for="Rojo" id="Rojo" name="Rojo">Rojo</label>
+    <input type="radio" id="Color Favorito" name="Color Favorito">
+    <label for="Verde" id="Verde" name="Verde">Verde</label>
+    <input type="radio" id="Color Favorito" name="Color Favorito">
+    <label for="Azul" id="Azul" name="Azul">Azul</label>
+    <input type="radio" id="Color Favorito" name="Color Favorito">
+    <label for="Amarillo" id="Amarillo" name="Amarillo">Amarillo</label>
+    <br>
+    <label for="Aceptar">Aceptar términos y condiciones:</label>
+    <input type="checkbox" id="Aceptar" name="Aceptar">
+    
  </body>
 </html>
