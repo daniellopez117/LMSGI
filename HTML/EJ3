@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"  content="Descripción de la página web">
+    <meta name="author" content="Daniel Lopez">
+    <title>Ejercicio3</title>
+</head>
+<body>
+   <fieldset>
+    <legend>Información personal</legend>
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre"><br><br>
+<label for="apellido">Apellido:</label>
+<input type="text" id="apellido" name="apellido"><br><br>
+ <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+  <input type="date" id="Fecha de nacimiento" name="Fecha de nacimiento"><br><br>
+  <label for="Género">Género:</label>
+   <input type="radio" id="masculino" name="Género" value="Masculino">
+  <label for="masculino">Masculino</label><br>
+   <input type="radio" id="femenino" name="Género" value="Femenino">
+  <label for="femenino">Femenino</label><br>
+   </fieldset>
+   <br>
+   <fieldset>
+    <legend>Información de contacto</legend>
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo"><br><br>
+    <label for="teléfono">Teléfono:</label>
+    <input type="tel" id="teléfono" name="teléfono"><br><br>
+    <label for ="textarea">Direccion:</label>
+    <textarea id="textarea" name="textarea"></textarea><br><br>
+   </fieldset>
+   <br>
+   <fieldset>
+    <legend>Informacion de Cuenta</legend>
+    <label for="text">Nombre de usuario:</label>
+    <input type="text" id="text" name="text"><br><br>
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <label for="confirmar">Confirmar contraseña:</label>
+    <input type="password" id="confirmar" name="confirmar"><br><br>
+   </fieldset>
+   
+ </body>
+</html>
