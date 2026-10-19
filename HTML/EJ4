@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario DAW</title>
+    <style>
+        table {width: 100%; border-collapse: collapse;
+            font-family: Times New Roman, serif;
+            text-align: center;}
+        th,
+        td {border: 1px solid #615656;
+            padding: 12px;}
+
+        th {background-color: #f2f2f2;
+            font-weight: bold;}
+    </style>
+</head>
+<body>
+ <table>
+        <caption>Horario del Grupo - Ciclo Formativo DAW</caption>
+        <colgroup>
+
+            
+            <col style="font-weight: bold; width: 15%;">
+            <col span="5" style="width: 17%;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>Tramo</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>08:15 - 09:15</td>
+                <td rowspan="2">PROGRAMACIÓN</td>
+                <td>ENTORNOS DE DESARROLLO</td>
+                <td rowspan="2">SISTEMAS INFORMÁTICOS</td>
+                <td rowspan="2">BASE DE DATOS</td>
+                <td rowspan="2">BASE DE DATOS</td>
+            </tr>
+            <tr>
+                <td>09:15 - 10:15</td>
+                <td>BASE DE DATOS</td>
+            </tr>
+            <tr>
+                <td>10:15 - 11:15</td>
+                <td>ENTORNOS DE DESARROLLO</td>
+                <td>BASE DE DATOS</td>
+                <td>SOSTENIBILIDAD</td>
+                <td>LENGUAJE DE MARCAS Y SISTEMAS DE GESTIÓN DE INFORMACIÓN</td>
+                <td>IP</td>
+            </tr>
+
+            <tr>
+                <td>11:15 - 11:45</td>
+                <td colspan="5">RECREO</td>
+            </tr>
+
+
+            <tr>
+                <td>11:45 - 12:45</td>
+                <td>ENTORNOS DE DESARROLLO</td>
+                <td>SISTEMAS INFORMÁTICOS</td>
+                <td>IP</td>
+                <td>LENGUAJE DE MARCAS Y SISTEMAS DE GESTIÓN DE INFORMACIÓN</td>
+                <td>IP</td>
+            </tr>
+            <tr>
+                <td>12:45 - 13:45</td>
+                <td>LENGUAJE DE MARCAS Y SISTEMAS DE GESTIÓN DE INFORMACIÓN</td>
+                <td rowspan="2">PROGRAMACIÓN</td>
+                <td rowspan="2">PROGRAMACIÓN</td>
+                <td rowspan="2">PROGRAMACIÓN</td>
+                <td>SISTEMAS INFORMÁTICOS</td>
+            </tr>
+            <tr>
+                <td>13:45 - 14:45</td>
+                <td>DIGITALIZACIÓN APLICADA</td>
+                <td>SISTEMAS INFORMÁTICOS</td>
+            </tr>
+        </tbody>
+
+
+
+        <tfoot>
+            <tr>
+
+                <td>14:45</td>
+                <td colspan="5">SALIDA</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>
