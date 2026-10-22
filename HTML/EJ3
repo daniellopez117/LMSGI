@@ -3,59 +3,99 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Descripción de la página web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estructura HTML a partir de un wireframe - Ejercicio 5">
     <meta name="author" content="Daniel Lopez">
-    <title>Ejercicio3</title>
+    <title>Ejercicio 5 - Wireframe</title>
 </head>
 
 <body>
-    <fieldset>
-        <legend>Información personal</legend>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br><br>
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido"><br><br>
-        <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
-        <input type="date" id="Fecha de nacimiento" name="Fecha de nacimiento"><br><br>
-        <label for="Género">Género:</label>
-        <input type="radio" id="masculino" name="Género" value="Masculino">
-        <label for="masculino">Masculino</label><br>
-        <input type="radio" id="femenino" name="Género" value="Femenino">
-        <label for="femenino">Femenino</label><br>
-    </fieldset>
-    <br>
-    <fieldset>
-        <legend>Información de contacto</legend>
-        <label for="correo">Correo electrónico:</label>
-        <input type="email" id="correo" name="correo"><br><br>
-        <label for="teléfono">Teléfono:</label>
-        <input type="tel" id="teléfono" name="teléfono"><br><br>
-        <label for="textarea">Direccion:</label>
-        <textarea id="textarea" name="textarea"></textarea><br><br>
-    </fieldset>
-    <br>
-    <fieldset>
-        <legend>Informacion de Cuenta</legend>
-        <label for="text">Nombre de usuario:</label>
-        <input type="text" id="text" name="text"><br><br>
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password"><br><br>
-        <label for="confirmar">Confirmar contraseña:</label>
-        <input type="password" id="confirmar" name="confirmar"><br><br>
-    </fieldset>
-    <br>
-    <label for="Color Favorito">Color Favorito:</label>
-    <input type="radio" id="Color Favorito" name="Color Favorito">
-    <label for="Rojo" id="Rojo" name="Rojo">Rojo</label>
-    <input type="radio" id="Color Favorito" name="Color Favorito">
-    <label for="Verde" id="Verde" name="Verde">Verde</label>
-    <input type="radio" id="Color Favorito" name="Color Favorito">
-    <label for="Azul" id="Azul" name="Azul">Azul</label>
-    <input type="radio" id="Color Favorito" name="Color Favorito">
-    <label for="Amarillo" id="Amarillo" name="Amarillo">Amarillo</label>
-    <br>
-    <label for="Aceptar">Aceptar términos y condiciones:</label>
-    <input type="checkbox" id="Aceptar" name="Aceptar">
+
+    <header>
+        <h1>TRADE</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <button type="button">Sign Up</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Ready to get started?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <button type="button">Start free trial</button>
+        </section>
+
+        <section>
+            <h2>Your Best Value Proposition</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+            <div class="gallery">
+                <div class="card">
+                    <img src="ruta-de-la-imagen1.jpg" alt="Descripción de la imagen 1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="card">
+                    <img src="ruta-de-la-imagen2.jpg" alt="Descripción de la imagen 2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="card">
+                    <img src="ruta-de-la-imagen3.jpg" alt="Descripción de la imagen 3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div>
+            <h3>TRADE</h3>
+            <p>&copy; 2010-2020</p>
+            <p>Privacy - Terms</p>
+        </div>
+
+        <div>
+            <h3>Product</h3>
+            <p>Product</p>
+            <p>Product</p>
+            <p>Product</p>
+        </div>
+
+        <div>
+            <h3>Features</h3>
+            <p>Feature</p>
+            <p>Feature</p>
+            <p>Feature</p>
+        </div>
+
+        <div>
+            <h3>Resources</h3>
+            <p>Resource</p>
+            <p>Resource</p>
+            <p>Resource</p>
+        </div>
+
+        <div>
+            <h3>Company</h3>
+            <p>Company</p>
+            <p>Company</p>
+            <p>Company</p>
+        </div>
+
+    </footer>
 
 </body>
 
