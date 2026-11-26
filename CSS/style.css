@@ -1,7 +1,7 @@
 .hero {
     background-image: url("https://4kwallpapers.com/images/wallpapers/golden-hour-sunset-clouds-landscape-5k-4480x2520-395.jpg");
 
-    background-repeat: no-repeat;
+
     background-size: cover;
     background-position: center 40%;
     min-height: 400px;
@@ -11,12 +11,45 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 24px;
     color: white;
-    padding: 32px;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.hero h1 {
+    font-size: 47px;
+
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
 #boton {
     background-color: rgb(167, 167, 164);
-    
+
+}
+
+.ejem {
+    background-color: rgb(14, 13, 13);
+
+}
+
+.ejem a {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 13, 13);
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.ejem a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 246, 246);
+    text-decoration: none;
 }
